@@ -8,7 +8,7 @@ function App() {
   const [total, setTotal] = useState(url);
   
   const send = text => {
-    
+  
     const hashtag = "\n%23devlibs dev-libs.netlify.com"
     // replace the line breaks and spaces with their "URL" equivalent
     const tweet = (text+hashtag).replace(/\n/g, "%0D").replace(/\s/g, "%20")
