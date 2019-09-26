@@ -76,3 +76,30 @@ export const tinyDict = {
     "macBook"
   ]
 };
+
+export const dummyData = [
+  {
+    programming_language: "React",
+    noun: "code",
+    verb: "fly",
+    ing_verb: "running",
+    ed_verb: "walked",
+    noun2: "semi-colon"
+  },
+  {
+    programming_language: "swift",
+    noun:"x-code",
+    verb: "switch",
+    ing_verb:"ticking",
+    ed_verb: "hacked",
+    noun2:"keyboard"
+  },
+  {
+    programming_language: "Java",
+    noun:"class",
+    verb: "connect",
+    ing_verb:"implementing",
+    ed_verb: "loaded",
+    noun2:"field"
+  },
+];
